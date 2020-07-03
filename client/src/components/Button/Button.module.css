@@ -1,0 +1,16 @@
+.Button {
+  height: 50px;
+  width: 75px;
+}
+
+.Button span {
+  display: block;
+  margin-top: 5px;
+  font-size: 10px;
+}
+
+.Active {
+  background-color: #4caf50;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}

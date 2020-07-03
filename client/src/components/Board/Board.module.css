@@ -1,0 +1,17 @@
+.Board {
+  margin: auto;
+  max-width: 500px;
+}
+
+.Board h2 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
+.Board div {
+  padding: 20px;
+  min-height: 50px;
+  font-size: 20px;
+  border: 1px solid #ccc;
+}

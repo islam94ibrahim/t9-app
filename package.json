@@ -2,13 +2,17 @@
   "name": "t9-app",
   "version": "1.0.0",
   "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
     "server": "node server/backend.js",
-    "test": "mocha \"server/test/predictor.js\""
+    "client": "cd client && npm start",
+    "test": "mocha \"server/test/predictor.js\"",
+    "postinstall": "cd client && npm install"
   },
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
     "an-array-of-english-words": "^2.0.0",
+    "concurrently": "^5.2.0",
     "express": "^4.17.1"
   },
   "devDependencies": {
