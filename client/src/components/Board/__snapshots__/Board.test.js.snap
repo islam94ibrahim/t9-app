@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Board /> renders correctly 1`] = `"<div class=\\"Board\\"><h2>Words</h2><div></div></div>"`;
